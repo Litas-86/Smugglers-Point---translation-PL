@@ -1,0 +1,379 @@
+.,Polish
+quest.name,Smugglers Point v1.3
+quest.description,Krótki scenariusz przeznaczony dla 1-3 Badaczy, zaznajamiający z typowymi oddziaływaniami i funkcjami Valkyrie.\n\nCelem scenariusza jest powstrzymanie tego co dzieje się z miejscową, morską florą i fauną, a także dowiedzieć się co spotkało Zadoka Allena oraz dostarczenie wystarczającej ilości dowodów policji.\n\n<i>Scenariusz do gry Posiadłość Szaleństwa 2 edycja. Do rozegrania scenariusza nie są wymagane żadne dodatki.\nDodatek "Za progiem" dodaje nieco różnorodności.</i>
+quest.synopsys,Śledztwo dotyczące zaginięcia starego rybaka Zadoka Allena (dla 1-3 graczy).
+quest.authors,Scenariusz: <i>Anton Timmermans i William van den Broek</i>\nTester:<i>Mark van Koeverden</i>
+quest.authors_short,Anton Timmermans
+ATTACK,Atak
+CANCEL,Anuluj
+CONTINUE,Kontynuuj
+GUESS,Sprawdź
+ACTION,<color=Cyan>{action}</color>
+EXPLORE,{qst:ACTION} Eksploruj
+INSPECT,{qst:ACTION} Zbadaj
+OPEN,{qst:ACTION} Otwórz
+UNLOCK,{qst:ACTION} Otwórz
+PICKUP,{qst:ACTION} Podnieś
+SEARCH,{qst:ACTION} Przeszukaj
+NEVERMIND,<i>"Nieważne"</i>
+ONECLUE,Zyskujesz 1 Wskazówkę <color=Cyan>{clue}</color>.
+PLACESEARCH,Umieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+PLACEEXPLORE,Umieść żeton <color=Cyan>Eksploracji</color> we wskazanym miejscu.
+PLACESIGHT,Umieść żeton <color=Cyan>Obserwacji</color> we wskazanym miejscu.
+PLACEDOOR,Umieść żeton <color=Cyan>Drzwi</color> we wskazanym miejscu.
+PLACEINTERACT,Umieść żeton <color=Cyan>Oddziaływania</color> we wskazanym miejscu.
+PLACEWALL,Umieść żeton <color=Cyan>Ściany</color> we wskazanym miejscu.
+PLACEPERSON,Umieść żeton <color=Cyan>Osoby</color> we wskazanym miejscu.
+MOVEDOG,Przemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+PLACE1TILE,Umieść kafelek <color=Cyan>{tile1}</color> we wskazanym miejscu.
+FACEDOWNHORROR,Przyjmujesz {nr} <color=Teal>zakryrych kart Przerażenia</color>
+FACEUPHORROR,Przyjmujesz {nr} <color=Teal>kart Przerażenia</color>
+FACEDOWNDAMAGE,Przyjmujesz  {nr} <color=Red>zakrytych kart Obrażeń</color>
+FACEUPDAMAGE,Przyjmujesz  {nr} <color=Red>kart Obrażeń</color>
+PuzzleRopeMorePlayers.button1,{qst:GUESS}
+PuzzleRopeOnePlayer.button1,{qst:GUESS}
+PuzzleLampOnePlayer.button1,{qst:GUESS}
+PuzzleLampMorePlayers.button1,{qst:GUESS}
+PuzzleShackOnePlayer.button1,{qst:GUESS}
+PuzzleShackMorePlayers.button1,{qst:GUESS}
+TokenDoorLighthouse.button1,{qst:CONTINUE}
+TokenDogonPier.button1,{qst:CONTINUE}
+TokenDoorLamptower.button1,{qst:CONTINUE}
+TokenInteractWindow.button1,{qst:CONTINUE}
+TokenDoorSnackshed.button1,{qst:UNLOCK}
+TokenDoorSnackshed.text,Stara szopa jest zamknięta, jednak rybak wspominał, że w środku może znajdować się coś przydatnego. Możesz spróbować otworzyć zamek, korzystając ze swojej {agility}.
+TokenSearchLifeboat.button1,{qst:SEARCH}
+TokenSearchLifeboat.text,Do nabrzeża zacumowana jest na wpół zatopiona szalupa. Płótno, którym była przykryta jest lekko odłonięte ukazując jej zawartość.
+TokenSearchBoxesontheDock.button1,{qst:SEARCH}
+EventDockPlaceSearchBox.button1,{qst:CONTINUE}
+EventDockPlaceSearchBox.text,Na nabrzeżu stoi kilka drewnianych skrzyń. Wilgoć i morska bryza odcisnęły na nich swoje widoczne piętno.\n\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+TokenSearchLighthouseChest.text,Pomimo posiadanego zamka, w obecnej chwili skrzynia stoi przed tobą otworem, nieomal zapraszając żebyś zajrzał do środka.
+TokenSearchLighthouseChest.button1,{qst:SEARCH}
+TokenSearchRowingboat.button1,{qst:SEARCH}
+TokenSearchRowingboat.text,Mała, czerwona łódka wygląda na przygotowaną do odpłynięcia. Czy to twój umysł płata ci figle, czy z łódki wystaje para mocno znoszonych butów?
+TokenSearchBarrel.button1,{qst:SEARCH}
+TokenSearchBarrel.text,Za skrzyniami stoi duża, drewniana beczka. Jej wieko wygląda jakby ktoś rozbił je przy pomocy czegoś ostrego.
+TokenSearchRope.button1,{qst:ACTION} Rozplącz
+TokenSearchRope.text,Grube zwoja splątanej liny leżą na schodach. Pożądna lina zawsze może się przyadać.\nMożesz spróbować rozplątać linę używając swojej {observation}.
+TokenSearchWindow.button1,{qst:SEARCH}
+TokenSearchWindow.text,Niewielkie okno jest załonięte grubym płótnem.
+EventInspectWindow.button1,{qst:CONTINUE}
+EventInspectWindow.text,Odsuwasz płótno na bok i odsłaniasz okno, przez które rozciąga się widok na plażę. Okno jest na tyle duże, że udało by ci się przez nie przejść, jednak znajduje się na tyle wysoko, że nie byłoby to najrozsądniejsze posunięcie. Może uda ci się znaleźć coś co pozwoli ci się bezpiecznie opuścić na dół.\n\nZastąp żeton <color=Cyan>Przeszukiwania</color> żetonem <color=Cyan>Oddziaływania</color>. Zyskujesz 1 Wskazówkę <color=Cyan>{clue}</color>.
+TokenSightLeftPier.button1,{qst:CONTINUE}
+TokenSightLeftPier.text,Przez kłębiąca się mgłę starasz się co znajduje się dalej. Badacz na obszarze <color=Cyan>{c:TileDock}</color> może odsłonić kolejny obszar.
+TokenSightRightBeach.button1,{qst:CONTINUE}
+TokenSightRightBeach.text,Za mgłą dostrzegasz piach. To pewnie plaża o której wspominał rybak. Badacz znajdujący się na obszarze <color=Cyan>{c:TileDock}</color> może odsłonić kolejny obszar.
+TokenInteractLamptower.button1,{qst:ACTION} Złam szyfr
+TokenInteractLamptower.text,Energia zasilająca latarnię jest przekierowywana do tej metalowej skrzynki. Dobiega z niej dziwne buczenie. Źródło całęgo tego zamiesznia musi znajdować się w środku, jednak tajemne symbolena drzwiach uniemożliwiają ci jej otwarcie.\n\nMożesz spróbować złamać tą magiczną pieczęć korzystając ze swojej {lore}.
+TokenInteractExplosion1.button1,{qst:ACTION} Podłóż ładunki wybuchowe
+TokenInteractExplosion1.text,Ta kolumna wydaje się przenosić większość obciążenia. Wydaje się idealnym miejscem do podłożenia ładunku. Jedna laska dynamitu powinna wystarczyć.
+TokenInteractExplosive2.button1,{qst:ACTION} Podłóż ładunki wybuchowe
+TokenInteractExplosive2.text,Osłabiona ściana obok schodów wygląda na dobre miejsce do podłożenia ładunków wybuchowych. Jedna laska dynamitu powinna sprawić, że ta część latarni się zawali.
+TokenZadokAllen.button1,{qst:ACTION} Zaatakuj
+TokenZadokAllen.button2,{qst:ACTION} Wygnaj
+TokenZadokAllen.text,Zadok Allen siedzi na niewielkim łóżku i przygląda ci się podejrzliwie. W słabym świetle ledwie widzisz zarys jego sylwetki. To musi być jego dusza, w jakiś przedziwny sposób przykuta do tego miejsca, wszak na zewnątrz znalazłeś jego rozszarpane zwłoki.
+TokenFishermanMooring.button1,{qst:CONTINUE}
+TokenFishermanMooring.text,Stary rybak, który przywiózł cię do latarni na Smugglers Point cumuje swoją niewielką łódkę do nabrzeża. Będzie tu na ciebie czekał.
+UIIntroductionContinueText.button1,{qst:CONTINUE}
+UIIntroductionContinueText.uitext,{qst:CONTINUE}
+UIIntroductionText.uitext,Od pewnego czasu miejscowi rybacy często wspominalil o wodach otaczających Smuggler Point. Twierdzą, że ryby gdzieś zniknęły, a dookoła samego przylądka dzieją się dziwne rzeczy. Policja zignorowała ich opowieści biorąc je za wytwory marynarskiej wyobraźni, jednak teraz jeden z rybaków, stary Zadok Allen zaginął. Ktoś musi zająć się tą sprawą.\n\nOficer Tetsuo Mori podejrzewa, że starzec prawdopodobnie umarł z przyczyn naturalnych i wypadł za burtę. Według niego, nie miało tu miejsce żadne przestępstwo, a policja ma poważniejsze sprawy, którymi musi się zająć. Pomógł wam w kilku poprzednich sprawach oferujecie mu więc swoją pomoc.\n\nWszystko co wiecie to to, że Zadok Allen ostatni raz widziany był, gdy płynął swoją łodzią w kierunku opuszczonej latarni na Smugglers Point. Jeden z rybaków oferuje swoją pomoc i zabiera was na miejsce.
+UIIntroductionContinueFrame.button1,Button1
+EventStartClueBigGroup.button1,{qst:CONTINUE}
+EventStartClueBigGroup.text,Każdy Badacz rozpoczyna grę z 1 Wskazówką <color=Cyan>{clue}</color>.
+EventStartClueSmallGroup.button1,{qst:CONTINUE}
+EventStartClueSmallGroup.text,Każdy Badacz rozpoczyna grę z 2 Wskazówkami <color=Cyan>{clue}</color>.
+EventStartPlaceTile.button1,{qst:CONTINUE}
+EventStartPlaceTile.text,Na pokładzie panuje chłód. Przez całun gęstej mgły ledwie dostrzegasz zarys latarni morskiej. Łódź zwalnia i powoli dobija do nabrzeża.\n Umieście kafelek <color=Cyan>{c:TileBoat}</color> oraz figurki swoich Badaczy we wskazanym miejscu.
+EventDockPlaceTile.button1,{qst:CONTINUE}
+EventDockPlaceTile.text,Z lekkim stukiem łódź dobija do celu.\nUmieść kafelek <color=Cyan>{c:TileDock}</color> we wskazanym miejscu.
+EventBoatPlaceFisherman.button1,{qst:CONTINUE}
+EventBoatPlaceFisherman.text,<i>"Poczeka, aż rzucę cumę."</i> - mamrocze stary rybak trzymając w ręku grubą linę, przygotowaną do zabezpieczenia łodzi.\nUmieść żeton <color=Cyan>Osoby</color> we wskazanym miejscu.
+TokenSearchBoxesontheDock.text,Na nabrzeżu stoi kilka drewnianych skrzyń. Wilgoć i morska bryza odcisnęły na nich swoje widoczne piętno. Prawdopodobnie rozpadną się jeśli spróbujesz je ruszyć.
+EventStartPlaceTileEnd.button1,{qst:CONTINUE}
+EventStartPlaceTileEnd.text,<i>"Może już zejść na brzeg."</i> - mówi rybak.\n <i>"Nie wiem dużo o tym miejscu. Co najwyżej, że inni mówili, że czasem się mieniają zbędnymi gratami w szopie na plaży."</i> - mruga i ciągnie dalej.\n<i>"Może sprawdzić czy coś się tam przyda. Ja tu poczekam jakby potrzebował pomocy"</i>.
+EventPierPlaceTile.button1,{qst:CONTINUE}
+EventPierPlaceTile.text,Keja ciągnie się od latarni. Umieść kafelek <color=Cyan>{c:TilePier}</color> we wskazanym miejscu i usuń żeton <color=Cyan>Obserwacji</color>.
+EventPierPlaceDog.button1,{qst:CONTINUE}
+EventPierPlaceDog.text,Zauważasz wynędzniałego psa, goniącego małe kraby po nabrzeżu.\nUmieść żeton <color=Cyan>Psa</color> we wskazanym miejscu.
+EventPierPlaceSearchLifeboat.text,Do mola zacumowana jest na wpół zatopiona szalupa.\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+EventPierPlaceSearchLifeboat.button1,{qst:CONTINUE}
+EventPierPlaceSearchBarrel.button1,{qst:CONTINUE}
+EventPierPlaceSearchBarrel.text,Za skrzyniami stoi duża, drewniana beczka. Jej wieko zostało rozbite.\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+EventPierPlaceExploreRental.button1,{qst:CONTINUE}
+EventPierPlaceExploreRental.text,Na ścianie szopy znajdującej się na końcu mola, zaraz obok okna znajduje się duży napis "ZAMELDUJ SIĘ TUTAJ".\nUmieść żeton <color=Cyan>Eksploracji</color> we wskazanym miejscu.
+EventPierPlaceExploreLighthouse.button1,{qst:CONTINUE}
+EventPierPlaceExploreLighthouse.text,U podstawy latarni widzisz ciężkie, drewniane drzwi wyposażone w stary, pordzewiały zamek.\nUmieść żeton <color=Cyan>Eksploracji</color> we wskazanym miejscu.
+EventBeachPlaceTile.button1,{qst:CONTINUE}
+EventBeachPlaceTile.text,Fale leniwie przetaczają swoje wody po plaży. Plaża jest całkowicie pusta jeśli nie liczyć niewielkiej szopy i czerwonej łodzi wiosłowej.\nUmieść kafelek <color=Cyan>{c:TileBeach}</color> we wskazanym miejscu i usuń żeton <color=Cyan>Obserwacji</color>.
+EventBeachPlaceExploreSnackShack.button1,{qst:CONTINUE}
+EventBeachPlaceExploreSnackShack.text,To musi być szopa o której wspominał rybak. Drzwi są zamknięte na pordzewiały zamek.\nUmieść żeton <color=Cyan>Eksploracji</color> we wskazanym miejscu.
+EventBeachPlaceSearchRowingboat.button1,{qst:CONTINUE}
+EventBeachPlaceSearchRowingboat.text,Mała, czerwona łódka wygląda na przygotowaną do odpłynięcia. Czy to twój umysł płata ci figle, czy z łódki wystaje para mocno znoszonych butów?\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+EventBeachPlaceDog.button1,{qst:CONTINUE}
+EventBeachPlaceDog.text,Pies podbiega do małej łódki i zaczyna szczekać z entuzjazmem.\nPrzemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+EventSearchRowingBoat.button1,{qst:CONTINUE}
+EventSearchRowingBoat.text,Z przerażeniem odkrywasz, że w łodzi znajdują się zwłoki Zadoka Allena. Coś oderwało mu jedną rękę. Na ciele widnieją też ślady po kłach i pazurach. Czerwień na łodzi nie była łuszczącą się farbą tylko plamami zaschniętej krwi! Ledwie udaje ci się powstrzymać napływającą falę mdłości, gdy starasz się przyjżeć zwłokom.\nPrzyjmujesz 1 <color=Teal>kartę Przerażenia</color> oraz zyskujesz <color=Cyan>przedmiot unikatowy {c:QItemOldKeys}</color>.
+EventAtticDoorKeyFound.button1,{qst:OPEN}
+EventAtticDoorKeyFound.button2,{qst:CANCEL}
+EventAtticDoorKeyFound.text,Drzwi są zamknięte i można je otworzyć jedynie przy pomocy klucza. Jeżeli posiadasz <color=Cyan>{c:QItemOldKeys}</color> możesz otworzyć te drzwi.
+EventAtticDoorKeyNotFound.button1,{qst:CONTINUE}
+EventAtticDoorKeyNotFound.text,Drzwi są zamknięte i można je otworzyć jedynie przy pomocy klucza.
+EventAtticPlaceTile.button1,{qst:CONTINUE}
+EventAtticPlaceTile.text,W podstawie latarni znajduje się niewielkie mieszkanie dla latarnika. Pomimo tego, że latarnia stała opuszczona od dawna zauważasz ślady czyjejś niedawnej obecności. Miejsce nie jest najlepiej utrzymane i w powietrzu wyczuwasz unoszący się zapach zgnilizny.\nUmieść kafelek <color=Cyan>{c:TileAttic}</color> we wskazanym miejscu i usuń żeton <color=Cyan>Eksploracji</color>.
+EventLightHousePlaceSearchChest.text,W kącie pomieszczenia zauważasz solidnie wyglądającą skrzynię. Pomimo posiadanego zamka, w obecnej chwili skrzynia stoi przed tobą otworem, nieomal zapraszając żebyś zajrzał do środka.\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+EventLightHousePlaceZadokAllen.button1,{qst:CONTINUE}
+EventLightHousePlaceZadokAllen.text,Zadok Allen siedzi na niewielkim łóżku i przygląda ci się podejrzliwie. W słabym świetle ledwie widzisz zarys jego sylwetki.\nUmieść żeton <color=Cyan>Osoby</color> we wskazanym miejscu.
+EventLightHousePlaceExploreTower.text,Drzwi prowadzące w górę latarni otacza dziwna poświata.\nUmieść żeton <color=Cyan>Eksploracji</color> we wskazanym miejscu.
+EventLightHousePlaceTileEnd.text,Okno zasłonięte jest grubym płótnem więc jedyne światło rozjaśniające mrok pomieszczenia to to, wpadające przez drzwi.\nUmieść żetony <color=Cyan>Ciemności</color> na wskazanych polach.
+EventDoorLampTowerGhostDead.text,With the ghost gone, the strange glow on the door has also disappeared.
+EventDoorLampTowerGhostDead.button1,{qst:OPEN}
+EventTowerPlaceTile.text,Długa wspinaczka po schodach prowadzi cię na szczyt latarni.\nUmieść kafelek <color=Cyan>{c:TileLighthouse}</color> we wskazanym miejscu i usuń żeton <color=Cyan>Eksploracji</color>.
+EventTowerPlaceSearchRope.text,Na schodach leżą zwoje liny.\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+EventTowerPlaceInteractBox.text,Przewody, które powinny zasilać lampę latarni podłączone są do stalowej skrzynki. Ciąg tajemnych symboli ja jej bokach jednoznacznie wskazuje na to, że ktoś założył na nią magiczną pieczęć, która ma zapobiec jej otwarciu. Ze środka skrzynki dobiega niskie, niepokojące buczenie. Cokolwiek się tutaj dzieje, źródło tych wydarzeń znajduje sie wewnątrz tej skrzynki.\nUmieść żeton <color=Cyan>Oddziaływania</color> we wskazanym miejscu.
+EventDoorLampTowerGhostDead.button2,{qst:CANCEL}
+EventDoorLamptowerGhostNotDead.text,Jakaś niewidzialna siła nie pozwala na otwarcie drzwi.
+EventDialogueDogWild.button1,{qst:ACTION} Spróbuj go złapać
+EventDialogueDogWild.button2,{qst:ACTION} Spróbuj go zwabić
+EventDialogueDogWild.button3,{qst:CANCEL}
+EventDialogueDogWild.text,Wynędzniały pies biega po nabrzeżu goniąc małe kraby. Po jego zapadniętych bokach i wystających żebrach stwierdzasz, że od dłuższego czasu nie jadł porządnie. Na obroży zauważasz małą blaszkę co wskazuje na to, że do kogoś należy.
+EventDialogueDogCalm.button1,{qst:ACTION} <i>"Gdzie jest Zadok?"</i>
+EventDialogueDogCatch.text,Pies jest ewidentnie głodny i cały czas rozgląda się za kolejnym krabem. Możesz spróbować go złapać ({agility}).
+EventDialogueDogCatch.button1,{qst:CONTINUE}
+EventCatchDogPass2.button1,{qst:CONTINUE}
+EventCatchDogPass2.text,Łódka wygląda na przygotowaną do odpłynięcia. Nie jesteś pewien czy twój umysł nie płata ci jakichś figli, bo wydaje ci się, że z łódki wystaje para mocno znoszonych butów.\nUmieść żeton <color=Cyan>Przezszukiwania</color> we wskazanym miejscu.
+EventDialogueDogCatchFail.button1,{qst:CONTINUE}
+EventDialogueDogCatchFail.text,Rzucasz się w przód starając się chwycić psa za obrożę. W momencie gdy twoje palce już dotykają skórzanego paska, pies zauważa kolejnego kraba i zaczyna go gonić, unikając twojej niezdarnej próby złapania go.
+EventDialogueDogCatchPass.button1,{qst:CONTINUE}
+EventDialogueDogCatchPass.text,W momencie gdy pies szykuje się do skoku za kolejną zdobyczą, udaje ci się wyciągnąć rękę i chwycić go za obrożę. Wisi na niej niewielka tabliczka z imieniem <i>"Roy"</i>  i napisem z tyłu <i>"jeśli mnie znalazłeś odprowadź do Zadoka Allena"</i>.\nOznacza to, że Zadok był tutaj i zostawił psa albo... coś mu się przytrafiło.\nZyskujesz 1 Wskazówkę <color=Cyan>{clue}</color>.
+EventDialogueDogLure.button1,{qst:CONTINUE}
+EventDialogueDogLure.text,Pies wygląda na wygłodniałego ale na szczęście zabrałeś ze sobą trochę jedzenia. Być może uda ci się go nim zwabić ({influence}).
+EventDialogueDogLureFail.button1,{qst:CONTINUE}
+EventDialogueDogLureFail.text,Wyciągasz przed siebie kanapkę, jednak pies jest bardziej zainteresowany pełzającymi wokół krabami.
+EventDialogueDogLurePass.button1,{qst:CONTINUE}
+EventDialogueDogLurePass.text,Machając ogonem pies podchodzi do trzymanej przez ciebie w wyciągniętej ręce kanapki. Gdy zajmuje się jedzeniem udaje ci się przyjżeć tabliczce na jego obroży. Z jednej strony widnieje imię <i>"Roy"</i>, a z tyłu ma napis <i>"jeśli mnie znalazłeś odprowadź do Zadoka Allena"</i>.\nOznacza to, że Zadok był tutaj i zostawił psa albo... coś mu się przytrafiło.\nZyskujesz 1 Wskazówkę <color=Cyan>{clue}</color>.
+EventStartPlaceSightPier.button1,{qst:CONTINUE}
+EventStartPlaceSightPier.text,Nabrzeże ciągnie się aż do latarni.\nUmieść żeton <color=Cyan>Obserwacji</color> we wskazanym miejscu.
+EventStartPlaceSightBeach.text,Na końcu doku widzisz łachę piaszczystej plaży.\nUmieść żeton <color=Cyan>Obserwacji</color> we wskazanym miejscu.
+EventStartPlaceSightBeach.button1,{qst:CONTINUE}
+EventMoveDogonPier.button1,{qst:CONTINUE}
+EventMoveDogonPier.text,Pies dostrzega kraba wpełzającego pod jedną ze skrzyń i rzuca się za nim. Nie mogąc dostać się do przekąski szczeka tylko na miejsce, w którym zniknął krab.\nPrzemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+EventMoveDogatFrontDoor.button1,{qst:CONTINUE}
+EventMoveDogatFrontDoor.text,Kilka małych krabów szybko chowa się w szczeliny pomiędzy deskami nabrzeża, gdy pies szczekając rzuca się w ich kierunku.\nPrzemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+EventMoveDogonDocks.button1,{qst:CONTINUE}
+EventMoveDogonDocks.text,Przednimi łapami pies przygniata kraba do ziemi, jednak gdy tylko unosi jedną łąpę żeby go zjeść, krab zwinnie wymyka się i znika pomiędzy deskami nabrzeża. Sfrustrowany straconą okazją pies zaczyna szczekać głośno.\nPrzemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+EventMoveDogonBeach.button1,{qst:CONTINUE}
+EventMoveDogonBeach.text,Pies biegnie na plażę i zatrzymuje się obok niewielkiej, wiosłowej łodzi.\nPrzemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+TokenDogonBeach.button1,{qst:ACTION} "Do łodzi"
+TokenDogonBeach.text,Miejscami pies nie ma na grzbiecie sierści i przebłyskuje tam jasna skóra lub coś... co przypomina rybie łuski. Pies mógłby posłużyć jako dowód tego co spotkało Zadoka, jednak może być skażony jakąś złowrogą magią, która zaczęła już go przemieniać.
+EventDialogueDogCalm.button2,{qst:CANCEL}
+EventDialogueDogCalm.text,Pies się uspokoił. Możesz spróbować kazać mu szukać Zadoka.
+EventDialogueDogCalmCoatFound.button1,{qst:ACTION} "Szukaj pana"
+EventDialogueDogCalmCoatFound.button2,{qst:CANCEL}
+EventDialogueDogCalmCoatFound.text,Być może psu uda się odnaleźć swojego pana jeśli dasz mu do powąchania jego płaszcz.\nBadacz posiadający <color=Cyan>{c:QItemForensicEvidence}</color> może polecić psu szukać pana.
+EventDialogueDogCalmCoatNotFound.button1,{qst:CONTINUE}
+EventDialogueDogCalmCoatNotFound.text,Pies szczeka na ciebie jakby w oczekiwaniu.
+EventOpenSnackShack.button1,{qst:CONTINUE}
+EventOpenSnackShack.text,Miejscowi rybacy ewidentnie korzystali z tej szopy jak z magazynu. W większości znajdują się tutaj tylko śmieci poza kilkoma w miarę przydatnymi przedmiotami, częściowo przykrytymi podartymi kawałkami żagli.\nUmieść przedmiot powszechny <color=Cyan>{c:QItemLightSource}</Color> na wskazanym polu i usuń żeton <color=Cyan>Eksploracji</color>.
+EventRopePuzzleSolved.button1,{qst:CONTINUE}
+EventRopePuzzleSolved.text,Rozplątujesz linu i bierzesz ze sobą najdłuższy kawałek. Masz nadzieję, że będzie wystarczająco długi.\nZyskujesz <color=Cyan>przedmiot unikatowy {c:QItemRope}</color>.
+EventLampPuzzleSolved.button1,{qst:CONTINUE}
+EventLampPuzzleSolved.text,W końcu magiczne symbole nabierają sensu i ochronne zaklęcie zanika, pozwalając otworzyć skrzynkę. Gdy ją otwierasz twoim oczom ukazuje się dziwne, świecące na zielono, urządzenie zasilane elektrycznością, która powinna zasilać lampę latarni.\nBez zastanowienia wyrywasz z niego kabel zasilający i od razu zaczynasz żałować swojej decyzji. Urządzenie zaczyna pulsować nieregularnie.\nMagia tego czegoś wymyka się twojemu pojmowaniu zasad rządzących światem. Musisz znaleść inny sposób żeby to powstrzymać.\nWewnątrz skrzynki zauważasz coś, co nasuwa ci pewien pomysł - wysadzić to przeklęte miejsce!\nZyskujesz przedmiot powszechny <color=Cyan>{c:QItemDynamite}</color>.
+EventPlaceInteractExplosion1.button1,{qst:CONTINUE}
+EventPlaceInteractExplosion2.text,Osłabiona ściana obok schodów wygląda na dobre miejsce do podłożenia ładunków wybuchowych.\nUmieść żeton <color=Cyan>Oddziaływania</color> we wskazanym miejscu.
+EventPlaceInteractExplosion1.text,Ta kolumna wydaje się przenosić większość obciążenia. Wydaje się idealnym miejscem do podłożenia ładunku.\nUmieść żeton <color=Cyan>Oddziaływania</color> we wskazanym miejscu.
+EventPlaceInteractExplosion2.button1,{qst:CONTINUE}
+EventInteractWindowNoRope.button1,{qst:ACTION} Zeskocz
+EventInteractWindowNoRope.button2,{qst:CANCEL}
+EventInteractWindowNoRope.text,Mógłbyś spróbować zejść na dół przez okno, jednak znajduje się ono dość wysoko, a skały na dole szczerzą swoje ostre kły. To może być niebezpieczne rozwiązanie, jednakże jeśli dopisze ci szczęście, nie niemożliwe. Chyba, że uda ci się znaleźć coś co pozwoli ci zejść bezpieczniej...
+EventInteractWindowRopeTied.button1,{qst:ACTION} Zeskocz
+EventInteractWindowRopeTied.button2,{qst:ACTION} Zejdź na dół
+EventInteractWindowRopeTied.button3,{qst:CANCEL}
+EventInteractWindowRopeTied.text,Z zawiązaną mocno liną bezpieczniej jest zejść po niej na dół lub jeśli czujesz, że jednak jesteś dość zwinny i masz szczęście nadal możesz zeskoczyć.
+EventInteractWindowRopeNotTied.button1,{qst:ACTION} Zeskocz
+EventInteractWindowRopeNotTied.button2,{qst:ACTION} Przywiąż linę
+EventInteractWindowRopeNotTied.button3,{qst:CANCEL}
+EventInteractWindowRopeNotTied.text,Mógłbyś spróbować zejść na dół przez okno, jednak znajduje się ono dość wysoko, a skały na dole szczerzą swoje ostre kły. To może być niebezpieczne rozwiązanie, jednakże jeśli dopisze ci szczęście, nie niemożliwe. Chyba, że użyjesz liny żeby się opuścić w bezpieczniejszy sposób.
+EventClimbDown.button1,{qst:CONTINUE}
+EventClimbDown.text,Korzystając z liny opuszczasz się tak nisko jak tylko się da, jednak lina nie sięga ziemi. Gdy docierasz do jej końca puszczasz się i zeskakujesz na dół.\nPrzyjmujesz 1 <color=Red>zakrytą kartę Obrażeń</color> ({agility} zapobiega).\nUmieść swojego Badacza na plaży obok okna.
+EventJumpDown.button1,{qst:CONTINUE}
+EventJumpDown.text,Wspinasz się na mokry od morskiej wody parapet i szykujesz się do skoku na miękki piasek plaży. Gdy już chcesz skakać, twoja noga ześlizguje się z mokrego parapetu i spadasz w dół bez żadnej kontroli. Twarda ziemia wita cię bólem.\nPrzyjmujesz 3 <color=Red>karty Obrażeń</color> ({agility} zapobiega).\nUmieść swojego Badacza na plaży obok okna.
+EventTieRope.button1,{qst:CONTINUE}
+EventTieRope.text,Rozglądasz się za czymś wystarczająco solidnym, żeby przywiązać linę. Jedyne co rzuca ci się w oczy to stalowa rama łóżka, przywiązujesz więc do niej linę i przysuwasz ją bliżej okna. Drugi koniec liny przerzucasz przez okno i wtedy uświadamiasz sobie, że do powierzchni plaży nadal brakuje jakichś 2 metrów. Zdajesz sobie sprawę, że nie bardzo masz inne wyjście, to będzie musiało wystarczyć.\nOdrzuć <color=Cyan>przedmiot unikatowy {c:QItemRope}</color>.
+EventDoorLamptowerGhostNotDead.button1,{qst:CONTINUE}
+EventGhostDead.text,Teraz, gdy duch Zadoka zniknął, zauważasz, że dziwna poświata bijąca od drzwi także zniknęła.
+EventGhostDead.button1,{qst:CONTINUE}
+EventLightHousePlaceSearchChest.button1,{qst:CONTINUE}
+EventLightHousePlaceExploreTower.button1,{qst:CONTINUE}
+EventLightHousePlaceTileEnd.button1,{qst:CONTINUE}
+EventInspectWindowRemoveDarkness.button1,{qst:CONTINUE}
+EventInspectWindowRemoveDarkness.text,Po odsłonięciu okna do pomieszczenia wpada już wystarczająco dużo światłą.\nUsuń żetony <color=Cyan>Ciemności</color>.
+EventInspectForensicEvidence.button1,{qst:INSPECT}
+EventInspectForensicEvidenceFirst.text,Badacz posiadający <color=CYAN>{c:QItemForensicEvidence}</color> może przyjżeć się przedmiotowi.
+EventInspectForensicEvidenceFirst.button1,{qst:INSPECT}
+EventInspectForensicEvidenceFirst.button2,{qst:CANCEL}
+EventForensicEvidenceCloseLook.text,W podszewce płaszcza znajdujesz wyszyty haft <i>"Zadok Allen"</i>. Ten płaszcz stanowi cenny dowód, więc lepiej na niego uważaj.\nSkoro ten płaszcz należał do Zadoka, to może pies będzie mógł po zapachu wskazać gdzie on się znajduje?\nZyskujesz 1 Wskazówkę <color=Cyan>{clue}</color>.
+EventForensicEvidenceCloseLook.button1,{qst:CONTINUE}
+EventInspectForensicEvidenceAgain.text,W podszewce płaszcza znajdujesz wyszyty haft <i>"Zadok Allen"</i>. Ten płaszcz stanowi cenny dowód, więc lepiej na niego uważaj.\nSkoro ten płaszcz należał do Zadoka, to może pies będzie mógł po zapachu wskazać gdzie on się znajduje?
+EventInspectForensicEvidenceAgain.button1,{qst:CONTINUE}
+EventTowerPlaceTile.button1,{qst:CONTINUE}
+EventTowerPlaceSearchRope.button1,{qst:CONTINUE}
+EventTowerPlaceInteractBox.button1,{qst:CONTINUE}
+EventLightHousePlaceSearchWindow.button1,{qst:CONTINUE}
+EventLightHousePlaceSearchWindow.text,Gruba płócienna płachta zasłania niewielkie okno.\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+EventExplosive1Placed.text,Ostrożnie umieszczasz laskę dynamitu za belką i podpalasz lont, który, masz nadzieję, jest na tyle długi, że da ci dość czasu na ucieczkę.\nUsuń żeton <color=Cyan>Oddziaływania</color>.
+EventExplosive1Placed.button1,{qst:CONTINUE}
+EventExplosive2Placed.text,Wciskasz dynamit w szczelinę w ścianie i podpalasz lont z nadzieją, że to wystarczy\nUsuń żeton <color=Cyan>Oddziaływania</color>.
+EventExplosive2Placed.button1,{qst:CONTINUE}
+EventDynamiteDepleted.text,Zużyłeś już cały posiadany dynamit. Odrzuć <color=Cyan>przedmiot powszechny {c:QItemDynamite}</color>.
+EventDynamiteDepleted.button1,{qst:CONTINUE}
+TokenFishermanLeaving0.button1,Button1
+EventDialogueFishermanLeaving.text,Rybak ze strachem odwraca się i spogląda za siebie, na latarnię jednocześnie kierując łódź jak najdalej od niej. Wydaje się całkowicie nie zwracać uwagi czy wszyscy zdążyli wrócić na pokład czy nie. Chce jedynie jak najszybciej się stąd oddalić i ocalić swoje życie i swoją cenną łódź.
+EventDialogueFishermanLeaving.button1,{qst:ACTION} <i>"Nie czekaj! RUSZAJ!"</i>
+EventDialogueFishermanLeaving.button2,{qst:ACTION} <i>"Wszyscy już są! RUSZAJ!"</i>
+EventDialogueFishermanLeaving.button3,{qst:CANCEL}
+EventDockMoveFishermantoDock.text,Rybak wyskakuje na nabrzeże ciągnąc za sobą cumę. Przemieść żeton <color=Cyan>Osoby</color> we wskazane miejsce.
+EventDockMoveFishermantoDock.button1,{qst:CONTINUE}
+EventInteractDynamitePlaceEnd.button1,{qst:CONTINUE}
+EventInteractDynamitePlaceEnd.text,Z oddali dobiega cię złowieszczy ryk. Coś bardzo starego i złego właśnie się przebudziło. Lepiej się pospieszyć.
+EventFisherManLeavesStep1.button1,{qst:CONTINUE}
+EventFisherManLeavesStep1.text,<i>"Niech to diabli, nie pisałem się na to".</i> - rybak ściąga cumę z polera i wchodzi na pokład.\nPrzemieść żeton <color=Cyan>Osoby</color> we wskazane miejsce.
+EventFishermanLeavesStep2.text,Klnąc pod nosem, rybak stara się uruchomić silnik łodzi. Po kilku próbach uświadamia sobie, że w pośpiechu zapomniał włączyć ssanie. Szybko naprawia swój błąd i przy ponownej próbie rozlega się warkot silnika. Przekrzykując pracującą maszynę zwraca się do wa: <i>"Szybciej, bo odpływam!"</i>
+EventFishermanLeavesStep2.button1,{qst:CONTINUE}
+EventFishermanLeavesStep3.button1,{qst:CONTINUE}
+EventFishermanLeavesStep4.button1,{qst:CONTINUE}
+EventFishermanLeavesStep5.button1,Koniec gry
+EventBoat1PlaceTileWithDog.button1,{qst:CONTINUE}
+EventBoat1PlaceTileWithDog.text,Łódź powoli odbija. Przemieść kafelek <color=Cyan>{c:TileBoat}</color> we wskazane miejsce. Porozmawiaj z rybakiem gdy będziesz gotowy do odpłynięcia.
+EventBoat1PlaceTileWithoutDog.button1,{qst:CONTINUE}
+EventBoat1PlaceTileWithoutDog.text,Łódź powoli odbija. Przemieść kafelek <color=Cyan>{c:TileBoat}</color> we wskazane miejsce. Porozmawiaj z rybakiem gdy będziesz gotowy do odpłynięcia.
+EventBoat2PlaceTileWithDog.button1,{qst:CONTINUE}
+EventBoat2PlaceTileWithDog.text,Łódź zaczyna nabierać prędkości i za chwilę znajdzie się poza waszym zasięgiem. Każdy Badacz, który nie znajduje się na łodzi przegra.\n Przemieść kafelek <color=Cyan>{c:TileBoat}</color> we wskazane miejsce. Porozmawiaj z rybakiem gdy będziesz gotowy odpłynąć.
+EventBoat2PlaceTileWithoutDog.button1,{qst:CONTINUE}
+EventBoat2PlaceTileWithoutDog.text,TŁódź zaczyna nabierać prędkości i za chwilę znajdzie się poza waszym zasięgiem. Każdy Badacz, który nie znajduje się na łodzi przegra.\n Przemieść kafelek <color=Cyan>{c:TileBoat}</color> we wskazane miejsce. Porozmawiaj z rybakiem gdy będziesz gotowy odpłynąć.
+EventBoat3PlaceTileWithDog.button1,{qst:CONTINUE}
+EventBoat3PlaceTileWithDog.text,Łódź minęła już nabrzeże. Każdy Badacz, który nie znajduje się na łodzi przegra.\nPrzemieść kafelek <color=Cyan>{c:TileBoat}</color> we wskazane miejsce. Porozmawiaj z rybakiem gdy będziesz gotowy odpłynąć.
+EventBoat3PlaceTileWithoutDog.button1,{qst:CONTINUE}
+EventBoat3PlaceTileWithoutDog.text,Łódź minęła już nabrzeże. Każdy Badacz, który nie znajduje się na łodzi przegra.\nPrzemieść kafelek <color=Cyan>{c:TileBoat}</color> we wskazane miejsce. Porozmawiaj z rybakiem gdy będziesz gotowy odpłynąć.
+SpawnDeepOne.button1,{qst:CONTINUE}
+SpawnDeepOne.text,Jeden z większych krabów nagle zaczyna rosnąć. Jego odnóża i szczypce zaczynają puchnąć formująć kończyny.\nWystaw figurkę <color=Cyan>{c:SpawnDeepOne}</color> we wskazanym miejscu.
+CustomMonsterDeepSeaStarSpawn.monstername,Gwiezdny Pomiot z Głębin
+CustomMonsterDeepSeaStarSpawn.info,-
+SpawnCustomDeepSeaSpawn.button1,{qst:CONTINUE}
+SpawnCustomDeepSeaSpawn.text,Dźwięk urządzenia wabi coś wielkiego i złego z morskich głębin, coś co wyłania się z ciemnej toni i wspina na nabrzeże. Stwór jest zbyt duży żeby przejść przez drzwi, stara się więc zniszczyć ściany. Głuche, potężne ciosy rozlegają się po okolicy.\nWystaw <color=Cyan>{c:SpawnCustomDeepSeaSpawn}</color> we wskazanym miejscu.
+EventDeepSeaStarSpawn.button1,Button1
+EventDeepSeaStarSpawnActivate.button1,Button1
+EventDeepSeaSpawnNoOneInRange.button1,{qst:CONTINUE}
+EventDeepSeaSpawnNoOneInRange.text,Potwór uderza w latarnię kolejny raz wybijając jedno z okien.\nKażdy Badacz znajdujący się wewnątrz otrzymuje 1 <color=Red>zakrytą kartę Obrażeń</color>.
+EventDeepSeaStarSpawnAttackStrength.button1,{qst:CONTINUE}
+EventDeepSeaStarSpawnAttackStrength.text,Macki potwora spadają na ciebie z góry. Szykujesz się na przyjęcie uderzenia. \n{qst:FACEDOWNDAMAGE:{nr}:3} ({strength} zapobiega). Jeśli przyjmujesz co najmniej 1 kartę Obrażeń, otrzymujesz stan <color=CYAN>Oszołomiony</color>.
+EventDeepSeaStarSpawnMoveAttackStrength.button1,Atak potwora
+EventDeepSeaStarSpawnMoveAttackStrength.button2,Brak Badaczy na polu
+EventDeepSeaStarSpawnMoveAttackStrength.text,Powtór ryczy gardłowo, a jego kolejne ciosy spadają na ściany latarni.\nNastępnie potwór atakauje tego Badacza na swoim polu, który posiada najwyższą {strength}.
+EventDeepSeaStarSpawnAttackAgility.button1,{qst:CONTINUE}
+EventDeepSeaStarSpawnAttackAgility.text,Jedną z macek, stwór oplata ci nogą i ciska tobą jak szmacianą lalką.\nPrzyjmujesz 3 <color=Red>zakryte karty Obrażeń</color> ({agility} zapobiega). Jeśli przyjmujesz 1 lub więcej Obrażeń, potwór odrzuca się o jedno pole w kierunku wnętrza latarni, następnie odkrywasz 1 kartę Obrażeń.
+EventDeepSeaStarSpawnMoveAttackAgility.button1,Atak potwora
+EventDeepSeaStarSpawnMoveAttackAgility.button2,Brak Badaczy na polu
+EventDeepSeaStarSpawnMoveAttackAgility.text,Potwór przesuwa mackami po latarni w poszukiwaniu czegoś co może chwycić, następnie atakuje tego Badacza na swoim polu, który ma najniższą {agility}.
+EventDeepSeaStarSpawnAttackWill.button1,{qst:CONTINUE}
+EventDeepSeaStarSpawnAttackWill.text, Stwór wdziera się do twojego umysłu i usiłuje złamać twój opór. Obrazy kolejnych przedstawicieli jego gatunku zaczynają wypełniać twój umysł.\nPrzyjmujesz 3 <color=Teal>zakryte karty Przerażenia</color> ({will} zapobiega}, następnie odkrywasz 1 kartę Przerażenia.
+EventDeepSeaStarSpawnMoveAttackWill.button1,Atak potwora
+EventDeepSeaStarSpawnMoveAttackWill.button2,Brak Badaczy w zasięgu
+EventDeepSeaStarSpawnMoveAttackWill.text,Stwór rozgląda się za przyczyną tego straszliwego dźwięku, następnie atakuje tego Badacza w zasięgu, który posiada największą {will}.
+EventDeepSeaStarSpawnAttackInfluence.button1,{qst:CONTINUE}
+EventDeepSeaStarSpawnAttackInfluence.text,Wydaje ci się, że mógłyś zdominować tego demona, nagiąć jego wolę do swojej. Obietnicami potęgi, demon nakłania cię do odstąpienia od atakowania go. {qst:FACEDOWNHORROR:{nr}:3} ({influence} zapobiega). Jeśli przyjmujesz conajmniej 1 kartę Przerażenia zostajesz <color=Cyan>Zahipnotyzowany</color>.
+EventDeepSeaStarSpawnAttackLore.button1,{qst:CONTINUE}
+EventDeepSeaStarSpawnAttackLore.text,Macki wroga wiją się w powietrzu, kreśląc skomplikowane wzory, jak gdyby potwór starał się z tobą porozumieć. Gdy starasz się skupić na odszyfrowaniu skomplikowanego wzoru, wpadasz w hinotyzującą pułapkę zastawioną przez bestię. Wszystko co kiedykolwiek znałeś jest stracone...  Wszystko będzie stracone... Siłujesz się starając się odzyskać własne wspomnienia.\n {qst:FACEDOWNHORROR:{nr}:3} ({lore} zapobiega). Jeśli przyjmujesz conajmniej 1 kartę Przerażenia zostajesz  <color=Cyan>Zahipnotyzowany</color>.
+EventDeepSeaStarSpawnMoveAttackLore.button1,Atak potwora
+EventDeepSeaStarSpawnMoveAttackLore.button2,Brak Badaczy na polu
+EventDeepSeaStarSpawnMoveAttackLore.text,Potwór przerywa na chwilę swoje natarcie na latarnię, jakby zastanawiał się nad swoim kolejnych posunięciem, następnie atakuje tego Badacza na swoim polu, który posiada najniższą {lore}.
+EventDeepSeaStarSpawnAttackObservation.button1,{qst:CONTINUE}
+EventDeepSeaStarSpawnAttackObservation.text,Macki uderzają jedna po drugiej. Starasz się unikać ich ciosów. Przyjmujesz 3 <color=Red>zakryte karty Obrażeń</color> ({observation} zapobiega). Jeśli udaje ci się uniknąć wszystkich Obrażeń otrzymujesz stan <color=Cyan>Skupiony</Color>.
+EventSearchLifeBoat.button1,{qst:CONTINUE}
+EventSearchLifeBoat.text,Łódź została porządnie przycumowana do nabrzeża i przykryta brezentem. Miejscowi czynią tak jeśli zamirzają zostać gdzieś na dłużej. Jednak łódź i tak uległa uszkodzeniu i teraz jest do połowy wypełniona wodą. Coś musiało się wydarzyć już po przybiciu do brzegu. Gdy odsuwasz brezent na bok odkrywasz czyjś płaszcz. Zyskujesz <color=CYAN>przedmiot unikatory {c:QItemForensicEvidence}</color>. Ten przedmiot możesz zbadać korzystając z menu ekwipunku.
+EventSearchLighthouseChest.button1,{qst:CONTINUE}
+EventSearchLighthouseChestPass.button1,{qst:CONTINUE}
+EventSearchLighthouseChestPass.text,Odkrywasz pamięnik należący do Zadoka Allena. Możliwe, że zapiski w nim zawarte rzucą nieco światła na to co się stało. Może też bezsprzecznie posłużyć jako dowód w sprawie.\nZyskujesz <color=Cyan>przedmiot unikatowy {c:QItemOldJournal}</color>. Możesz przyjżeć się bliżej temu znalezisku korzystając z menu ekwipunku.
+EventSearchLighthouseChestPass2.button1,{qst:CONTINUE}
+EventSearchLighthouseChestPass2.text,Na okładce jednej z książek widnieją okultystyczne symbole. Najwyraźniej Zadok Allen parał się magią.\nZyskujesz zaklęcie <color=Cyan>{c:QItemLighthouseChestSpell}</color>.\Zyskujesz 1 Wskazówkę <color=Cyan>{clue}</color>.
+EventSearchLighthouseChestFail.button1,{qst:CONTINUE}
+EventSearchLighthouseChestFail.text,Szybki rzut oka nie odkrywa przed tobą niczego ciekawego. Może jeśli poświęcisz jeszcze trochę czasu żeby lepiej się przyjżeć uda ci się znaleźć coś przydatnego.
+EventSearchLighthouseChest.text,Skrzynię wypełniają w większości książki. Przeglądasz je w poszukiwaniu czegoś ciekawego ({lore}).
+EventDialogueDogonBoat.button1,{qst:ACTION} Wyrzuć psa za burtę
+EventDialogueDogonBoat.button2,{qst:CANCEL}
+EventDialogueDogonBoat.text,Pies nie przestaje się drapać i coraz więcej sierści zaczyna mu wypadać. Jego łuskowata skóra lśni w świetle. Zauważasz też, że jego łapy coraz bardziej zaczynają przypominać poprzerastane błoną szpony. Gdy mu się przyglądasz obnaża kły i zaczyna na ciebie gniewnie warczeć. Zaczynasz się zastanawiać czy zabranie go na pokład było dobrym pomysłem.
+EventDialogueDogoffBoat.button1,{qst:CONTINUE}
+EventDialogueDogoffBoat.text,Pies zaczyna się wyrywać gdy starasz się go wyrzucić za burtę. Warczy i wyje starając się jednocześnie wykręcić tak żeby cię ugryźć.\nPrzyjmujesz 1 <color=Red>kartę Obrażeń</color> ({agility} zapobiega}).\nGdy tylko pies wpada do wody zaczyna płynąć osiągając nieprawdopodobną szybkość.\nPrzemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+EventMoveDogonBoat0.button1,{qst:CONTINUE}
+EventMoveDogonBoat0.text,Posłuszny twojemu poleceniu pies biegnie w kierunku łodzi. Przemieść psa na obszar <color=Cyan>{c:TileBoat}</color> we wskazane miejsce.
+EventMoveDogonBoat1.button1,{qst:CONTINUE}
+EventMoveDogonBoat1.text,Posłuszny twojemu poleceniu pies biegnie w kierunku łodzi. Przemieść psa na obszar <color=Cyan>{c:TileBoat}</color> we wskazane miejsce.
+EventMoveDogonBoat2.button1,{qst:CONTINUE}
+EventMoveDogonBoat2.text,Posłuszny twojemu poleceniu pies biegnie w kierunku łodzi. Przemieść psa na obszar <color=Cyan>{c:TileBoat}</color> we wskazane miejsce.
+EventMoveDogonBoat3.button1,{qst:CONTINUE}
+EventMoveDogonBoat3.text,Pies zaczyna biec za łodzią, jednak zatrzymuje się gdy tylko jego przednie łapy dotykają wody. Szczeka jedynie za oddalającą się łodzią.\nPrzemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
+EventMoveOneSpace.button1,{qst:CONTINUE}
+EventMoveOneSpace.text,Możesz przemieścić się o jedno pole na eksplorowany obszar.
+EventSearchBoxesontheDocks.button1,{qst:CONTINUE}
+EventSearchBoxesontheDocks.text,Gdy starasz się podnieść skrzynie, te drewno pęką i rozpada się. Za resztkami skrzyń dostrzegasz coś co może ci się przydać.\nZyskujesz <color=Cyan>przedmiot powszechny {c:QItemBoxOnDocksItem}</color>.
+UIEpilogueContinueText.uitext,{qst:CONTINUE}
+UIEpilogueContinueBackground.button1,Button1
+UIEpilogueInvestigatorDeadTxt.uitext,Widząc śmierć jednego z Badaczy, rybak bez mrugnięcia okiem włącza pełną moc silnika i odpływa najszybciej jak to tylko możliwe.\n\nŚledztwo nie zostało ukończone.\n\nKoniec\n
+UIEpilogueMissingEvidenceExplodeTxt.uitext,Rybak stara się oddalić o latarni tak szybo jak tylko się da. W oddali na plaży widzisz jak pies zaczyna rosnąć. Jego łapy zmieniają się w potężne szpony poprzerastane błonami.\n\nWtem z głośnym hukiem dynamit wybucha i latarnia morska zapada się w płomieniach i dymie. Odłamki murów zostają rozrzucone po okolicy rozrywając ciała zdeformowanych stworzeń w pobliżu.\n\nTeraz powinniście już być bezpieczni, jednak ciężko będzie wytłumaczyć policji to co tutaj zaszło, w szczególności biorąc pod uwagę jak niewiele dowodów udało się wam zebrać. \n\nŚledztwo nie zostało ukończone.\n\nKoniec.
+UIEpilogueMissingEvidenceNoExplodeTxt.uitext,Rybak stara się oddalić o latarni tak szybo jak tylko się da. W oddali na plaży widzisz jak pies zaczyna rosnąć. Jego łapy zmieniają się w potężne szpony poprzerastane błonami.\n\nCoraz więcej dziwnych, zdeformowanych stworzeń zaczyna wypełzać z morza i kierować się ku budynkowi latarni.\n\nMoże i udało się wam uciec, jednak ciężko będzie wytłumaczyć policji to co tutaj zaszło, w szczególności biorąc pod uwagę jak niewiele dowodów udało się wam zebrać. \n\nŚledztwo nie zostało ukończone.\n\nKoniec.
+UIEpilogueMissedBoatExplodeTxt.uitext,Rybak stara się odpłynąć od latarni najszybciej jak tylko się da. Nie zwraca uwagi na to czy wszyscy zdążyli wrócić na pokład, chce jedynie stąd uciec.\n\nW oddali na plaży widzisz jak pies zaczyna rosnąć. Jego łapy zmieniają się w potężne szpony poprzerastane błonami.\n\nW chwili gdy monstrum szykuje się do ataku na ludzi, którzy zostali na wyspie powietrzem wstrząsa huk eksplozji i budynek latarni zostaje pochłonięty przez dym i ogień. Odłamki murów zostają rozrzucone po okolicy raniąc i zabijając zarówno zdeformowane monstra jak i pozostawionych na pastwę losu Badaczy.\n\nŚledztwo nie zostało ukończone.\n\nKoniec.
+UIEpilogueMissedBoatNoExplodeTxt.uitext,Rybak stara się odpłynąć od latarni najszybciej jak tylko się da. Nie zwraca uwagi na to czy wszyscy zdążyli wrócić na pokład, chce jedynie stąd uciec.\n\nW oddali na plaży widzisz jak pies zaczyna rosnąć. Jego łapy zmieniają się w potężne szpony poprzerastane błonami.\nCoraz więcej dziwnych, zdeformowanych stworzeń zaczyna wypełzać z morza i atakować nieprzebraną falą każdego kto pozostał na wyspie.\n\nŚledztwo nie zostało ukończone.\n\nKoniec.
+UIEpiloguePartialVictoryTxt.uitext,Rybak stara się odpłynąć od latarni najszybciej jak tylko się da. W oddali na plaży widzisz jak pies zaczyna rosnąć. Jego łapy zmieniają się w potężne szpony poprzerastane błonami.\n\nPotwór zaczyna piąć się w stronę latarni. Coraz więcej dziwnych, zdeformowanych stworzeń zaczyna wypełzać z morza i już po chwili cała wyspa się od nich roi. \n\nUdało się wam zebrać wystarczającą ilość dowodów żeby wyjaśnić policji co się tutaj stało i jaką rolę w tych wydarzeniach odegrało Loża Srebrnego Świtu. Nie udało się wam jednak powstrzymać tego niekontrolowanego napływu potworów. Wody wokół Smugglers Point od teraz nie są bezpieczne.\n\nŚledztwo niemalże zostało ukończone.\n\nKoniec.
+UIEpilogueDogOnBoatTxt.uitext,Rybak stara się odpłynąć od latarni najszybciej jak tylko się da. \n\nOglądasz się za siebie ciekaw co stanie się teraz z latarnią. Nie zauważasz, że pies za tobą przemienił się całkowicie. Rozrósł się do gigantycznych rozmiarów, a jego łąpy zamieniły się w poprzerastane błonami szpony.\n\nNie dając wam czasu na reakcję, stwór rzuca się na was i szarpiąc i rozrywając na strzępy wszystkich na pokładzie. Gdy na pokładzie nie pozostał już nikt żywy, stworzenie rzuca się w głębiny, a na powierzchni morza pozostała jedynie pusta łódź skąpana we krwi\n\nŚledztwo nie zostało ukończone.\n\nKoniec.
+UIEpilogueFullWinTxt.uitext,Rybak stara się odpłynąć od latarni najszybciej jak tylko się da.\n\nW oddali na plaży widzisz jak pies zaczyna rosnąć. Jego łapy zmieniają się w potężne szpony poprzerastane błonami.\n\nWtem powietrze rozdziera huk eksplozji i budynek latarni zostaje pochłonięty przez ogień i dym. Odłamki murów zostają rozrzucone po okolicy raniąc i zabijając zdeformowane monstra.\n\nTeraz powinniście być już bezpieczni. Zebraliście wystarczająco dużo dowodów żeby bez trudu wyjasnić policji co tutaj zaszło oraz jaka była w tych wydarzeniach rola Loży Srebrnego Świtu.\n\nŚledztwo zostało ukończone.\n\nKoniec.
+EventSearchBarrel.button1,{qst:CONTINUE}
+EventSearchBarrel.text,Wewnątrz beczki dostrzegasz coś błyszczącego.Sięgasz żeby to wyciągnąć jednak gdy wyciągasz rękę zahaczasz o coś ostrego i rozcinasz sobie skórę.\nPrzyjmujesz 1 <color=Red>zakrytą kartę Obrażenia</color> oraz zyskujesz przemiot powszechny <color=Cyan>{c:QItemBarrel}</color>.
+EventPierPlaceSearchShack.button1,{qst:CONTINUE}
+EventPierPlaceSearchShack.text,Przez rozbite okno budki widzisz jakieś dokumenty oraz dziennik. Pręty w oknie nie pozwalają ci ich dosięgnąć z zewnątrz.\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
+TokenDoorRentalshed.button1,{qst:OPEN}
+TokenDoorRentalshed.text,Drzwi zwisają na zawiasach i zaklinowały się na wpół otwarte. Prawdopodobnie wyłamią się do końca gdy spróbujesz je otworzyć. Na pewno nie były używane już bardzo długo.
+EventRentalShedOpenDoor.text,Szarpiesz za drzwi i zgodnie z twoimi przewidywaniami drzwi wyskakują z zawiasów. Drewno pęka i ostre drzazgi kaleczą ci ręce. Drzwi w głuchym stukiem padają na ziemię.\nPrzyjmujesz 1 <color=Red>zakrytą kartę Obrażeń</color> ({strength} zapobiega). Możesz przemieścić się o jedno pole do wnętrza budki.
+EventRentalShedOpenDoor.button1,{qst:CONTINUE}
+EventOldJournalInpectFirst.button1,{qst:ACTION} Czytaj dziennik
+EventOldJournalInpectFirst.button2,{qst:CANCEL}
+EventOldJournalInpectFirst.text,Badacz posiadający <color=Cyan>{c:QItemOldJournal}</color> może przeczytać jego zawartość.
+EventOlDJournalInpectAgain.button1,{qst:CONTINUE}
+EventOlDJournalInpectAgain.button2,{qst:CANCEL}
+EventOlDJournalInpectAgain.text,Badacz posiadający <color=Cyan>{c:QItemOldJournal}</color> może przeczytać jego zawartość.
+EventOldJournalRead2.button1,{qst:CONTINUE}
+EventOldJournalRead2.text,Wpis na ostatniej stronie ciężko jest odcyfrować. Pismo stało się roztrzęsione i niewyraźne. \n\n<i>"Minęły 2 dni od uruchomienia urządzenia. Na razie nie zauważyłem większej ilości ryb, zamiast tego na wyspę wychodzi całe mnóstwo krabów. Wyglądają dziwnie. Roy też zaczął się nietypowo zachowywać. Moje próby ponownego otwarcie skrzynki spełzły na niczym. Ta magia przerasta moje umiejętności.\nCoś zniszczyło moją łódź. Wrócę tą małą łódką, żeby sprowadzić kogoś, kto pomoże mi poradzić sobie z tym magicznym urządzeniem."</i>.\n\nNajwyraźniej ktoś podstępem wmanewrował Zadoka w uruchomienia jakiegoś urządzenia, które miało posłużyc jego niecnym celom. I ktoś z Loży Srebrnego Świtu na pewno za to odpowie. Lepiej zatrzymać <color=Cyan>{c:QItemOldJournal}</color> jako dowód.\nZyskujesz 1 Wskazówkę <color=Cyan>{clue}</color>.
+EventOldJournalRead1.button1,{qst:CONTINUE}
+EventOldJournalRead1.text,Przerzucasz strony dziennika Zadoka w poszukiwaniu najświeższych wpisów. Nie notował dat nie jesteś więc w stanie stwierdzić od kiedy prowadził dziennik.\n\nPrzedostatni wpis brzmi: <i>"Zamontowałem urządzenie w opuszczonej latarni tak jak powiedział ten facet z Loży Srebrnego Świtu. Odczytałem z kartki zaklęcie, które miało zapieczętować i uruchomić urzadzenie. Teraz pozostało mi jedynie czekać i zobaczyć czy pojawi się więcej ryb tak jak obiecywał."</i>.\n\nZadok musiał próbować zwiększyć swoje połowy przy pomocy magii Loży Srebrnego Świtu.
+EventOldJournalRead2Again.button1,{qst:CONTINUE}
+EventOldJournalRead2Again.text,Wpis na ostatniej stronie ciężko jest odcyfrować. Pismo stało się roztrzęsione i niewyraźne. \n\n<i>"Minęły 2 dni od uruchomienia urządzenia. Na razie nie zauważyłem większej ilości ryb, zamiast tego na wyspę wychodzi całe mnóstwo krabów. Wyglądają dziwnie. Roy też zaczął się nietypowo zachowywać. Moje próby ponownego otwarcie skrzynki spełzły na niczym. Ta magia przerasta moje umiejętności.\nCoś zniszczyło moją łódź. Wrócę tą małą łódką, żeby sprowadzić kogoś, kto pomoże mi poradzić sobie z tym magicznym urządzeniem."</i>.\n\nNajwyraźniej ktoś podstępem wmanewrował Zadoka w uruchomienia jakiegoś urządzenia, które miało posłużyc jego niecnym celom. I ktoś z Loży Srebrnego Świtu na pewno za to odpowie. Lepiej zatrzymać <color=Cyan>{c:QItemOldJournal}</color> jako dowód.
+EventDialogueZadokAllen.button1,Wygnaj
+EventDialogueZadokAllen.text,Poznałeś kiedyś zaklęcie, które pozwala wygnać niespokojne dusze jednak wymaga ono ogromnego skupienia oraz wypowiedzenia słów zaklęcia z odpowiednim przekonaniem. Spróbuj przegnać ducha ({will}).
+EventDialogueZadokAllenPass.button1,{qst:CONTINUE}
+EventDialogueZadokAllenPass.text,Duch Zadoka spogląda na ciebie pustymi, smutnymi oczami. Gdy wymawiasz słowa zaklęcia zrywa się i próbuje cię uciszyć jednak zanim zdoła cię dosięgnąć, zaczyna się rozpływać i zostaje wessany w czarny wir. Myśl, że taki los może kiedyś spotkać także ciebie pojawia się w twojej głowie.\nPrzyjmujesz  1 <color=Teal>kartę Przerażenia</color> ({will} zapobiega).
+SpawnGhostAttack.button1,{qst:CONTINUE}
+SpawnGhostAttack.text,Duch Zadoka rzuca się na ciebie w odpowiedzi na twoją próbę ataku. Zastąp żeton <color=Cyan>Zadoka Allena</color>  figurką <color=Cyan>{c:SpawnGhostAttack}</color>. W ramach darmowej akcji możesz zaatakować potwora.
+SpawnGhostBanish.button1,{qst:CONTINUE}
+SpawnGhostBanish.text,Duch Zadoka rzuca się na ciebie gdy próbujesz odesłać go w niebyt. Zastąp żeton <color=Cyan>Zadoka Allena</color> figurką <color=Cyan>{c:SpawnGhostBanish}</color>. Duch natychmiast chwyta cię za gardło swoimi lodowato zimnymi palcami, starając się ciebie uciszyć.\nPrzyjmujesz 1 <color=Red>kartę Obrażeń</color> ({strength} zapobiega).
+EventMoveDog.button1,{qst:CONTINUE}
+EventPlaceLuckyCigaretteCase.button1,{qst:CONTINUE}
+EventPlaceLuckyCigaretteCase.text,Rybak zostawił swoją {c:QItemLuckyCigaretteCase} w kabinie. Umieść przedmiot powszechny <color=Cyan>{c:QItemLuckyCigaretteCase}</color> we wskazanym miejscu.
+EventDialogueFishermanonDock.text,\n<i>"Powodzenia ze śledztwem, dadzą znać jak będą potrzebować pomocy"</i> - mówi rybak opierając się o poler.
+EventDialogueFishermanonDock.button1,{qst:CONTINUE}
+EventDialogueFishermanonDockWild.text,Rybak z niepokojem spogląda na psa i mówi: <i>"Zrobi coś z tym kundlem. Zaczyna mnie ostro nerwić."</i>
+EventDialogueFishermanonDockWild.button1,{qst:CONTINUE}
+EventDialogueFishermanonDockNervous.button1,{qst:CONTINUE}
+EventDialogueFishermanonDockNervous.text,Rybak nerwowo spogląda na latarnie i mówi: <i>"Co to za dziwne odgłosy tam z góry? Sprwadzita to? I się lepiej pospieszą, to nie jest normalne. Nie chcę tutaj dłużej być"</i>
+EventDialogueFishermanonDockCalm.button1,{qst:CONTINUE}
+EventDialogueFishermanonDockCalm.text,Na twarzy rybaka maluje się wyraz zaniepokojenia.\n\n<i>"Lepiej znajdzie sposób żeby wejść do tej latarni. Coś się mnie w niej nie zgadza."</i>
+EventSearchShackPierDoorClosed.button1,{qst:CONTINUE}
+EventSearchShackPierDoorClosed.text,Kraty w okienku uniemożliwiają dosięgnięcie papierów z zewnątrz. Będziesz musiał wejść do budki żeby je przejżeć.
+EventSearchShackPierFindSpell.button1,{qst:CONTINUE}
+EventSearchShackPierFindSpell.text,Przeglądasz wpisy w dzienniku. Ostatni wpis jest sprzed roku i nie odnosi się w żaden sposób do bierzących wydarzeń. Gdy odkładasz dziennik na miejsce zauważasz, że wśród dokumentów znajduje się kartka pokryta tajemnymi znakami.\nZyskujesz zaklęcie <color=Cyan>{c:QItemShackPierSpell}</color>.
+EventSearchShackPierDoorOpen.button1,<color=Cyan>{action}</color> Przeszukaj
+EventSearchShackPierDoorOpen.button2,{qst:CANCEL}
+EventSearchShackPierDoorOpen.text,Na stercie różnych dokumentó leży duży dziennik. Może zawiera jakieś informacje o ostatnich wydarzeniach?
+EventDialogueFishermanLeavingWithDog.text,Rybak ze strachem odwraca się i spogląda za siebie, na latarnię jednocześnie kierując łódź jak najdalej od niej. Wydaje się całkowicie nie zwracać uwagi czy wszyscy zdążyli wrócić na pokład czy nie. Chce jedynie jak najszybciej się stąd oddalić i ocalić swoje życie i swoją cenną łódź. Rzuca też pełne niepokoju spojrzenie w kierunku psa, który z minuty na minutę coraz bardziej zaczyna gubić sierść.
+EventDialogueFishermanLeavingWithDog.button1,{qst:ACTION} <i>"Nie czekaj! RUSZAJ!"</i>
+EventDialogueFishermanLeavingWithDog.button2,{qst:ACTION} <i>"Wszyscy już są! RUSZAJ!"</i>
+EventDialogueFishermanLeavingWithDog.button3,{qst:CANCEL}
+TokenStarSpawn.text,Ten potwór nie będzie poruszał się jak zwykle. Zamiast tego będzie starał się dostać do wnętrza latarni.
+TokenStarSpawn.button1,{qst:CONTINUE}
